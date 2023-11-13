@@ -1,2 +1,2 @@
-FROM sagemath/sagemath:9.0
+FROM sagemath/sagemath:10.1
 COPY --chown=sage:sage . ${HOME}
